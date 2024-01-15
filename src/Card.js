@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PriceCard({data}) {
+function Card({data}) {
   return (
    <>
    <div className="col-lg-4">
@@ -29,4 +29,4 @@ function PriceCard({data}) {
   )
 }
 
-export default PriceCard
+export default Card
