@@ -1,4 +1,4 @@
-import PriceCard from "./PriceCard";
+import Card from "./Card";
 
 function App() {
   let data=[
@@ -74,7 +74,7 @@ function App() {
         <div className="row">
           {
             data.map((detail,i)=>{
-              return <PriceCard key={i} data={detail}/>
+              return <Card key={i} data={detail}/>
             })
           }
         </div>
